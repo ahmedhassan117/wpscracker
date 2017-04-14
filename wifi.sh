@@ -82,7 +82,7 @@ elif [[ $x == "6" ]]; then
   s4=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "6" ]]; then
+elif [[ $x == "7" ]]; then
   s1=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f1)
   s2=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f2)
   s3=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f3)
