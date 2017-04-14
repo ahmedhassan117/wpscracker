@@ -54,40 +54,33 @@ elif [[ $x == "3" ]]; then
   s4=$(cat l.txt | sed -n '11p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '11p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "3" ]]; then
+elif [[ $x == "4" ]]; then
   s1=$(cat l.txt | sed -n '12p' < l.txt | cut -d ":" -f1)
   s2=$(cat l.txt | sed -n '12p' < l.txt | cut -d ":" -f2)
   s3=$(cat l.txt | sed -n '12p' < l.txt | cut -d ":" -f3)
   s4=$(cat l.txt | sed -n '12p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '12p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "4" ]]; then
+elif [[ $x == "5" ]]; then
   s1=$(cat l.txt | sed -n '13p' < l.txt | cut -d ":" -f1)
   s2=$(cat l.txt | sed -n '13p' < l.txt | cut -d ":" -f2)
   s3=$(cat l.txt | sed -n '13p' < l.txt | cut -d ":" -f3)
   s4=$(cat l.txt | sed -n '13p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '13p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "5" ]]; then
+elif [[ $x == "6" ]]; then
   s1=$(cat l.txt | sed -n '14p' < l.txt | cut -d ":" -f1)
   s2=$(cat l.txt | sed -n '14p' < l.txt | cut -d ":" -f2)
   s3=$(cat l.txt | sed -n '14p' < l.txt | cut -d ":" -f3)
   s4=$(cat l.txt | sed -n '14p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '14p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "6" ]]; then
+elif [[ $x == "7" ]]; then
   s1=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f1)
   s2=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f2)
   s3=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f3)
   s4=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f4)
   s5=$(cat l.txt | sed -n '15p' < l.txt | cut -d ":" -f5)
-  s=$s1:$s2:$s3:$s4:$s5
-elif [[ $x == "7" ]]; then
-  s1=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f1)
-  s2=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f2)
-  s3=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f3)
-  s4=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f4)
-  s5=$(cat l.txt | sed -n '16p' < l.txt | cut -d ":" -f5)
   s=$s1:$s2:$s3:$s4:$s5
 fi
 echo -ne "${ul} input ch"
